@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "ImageForge home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: ImageForge
+      - navigation [ref=e10]:
+        - link "All tools" [ref=e11] [cursor=pointer]:
+          - /url: /tools
+        - link "Compression" [ref=e12] [cursor=pointer]:
+          - /url: /tools#compression
+        - link "Conversion" [ref=e13] [cursor=pointer]:
+          - /url: /tools#conversion
+        - link "Editing" [ref=e14] [cursor=pointer]:
+          - /url: /tools#editing
+        - link "PDF" [ref=e15] [cursor=pointer]:
+          - /url: /tools#pdf
+        - link "AI" [ref=e16] [cursor=pointer]:
+          - /url: /tools#ai
+      - generic [ref=e17]:
+        - img
+        - textbox "Search image tools" [ref=e18]:
+          - /placeholder: Search compress, PNG to JPG...
+      - button "Toggle theme" [ref=e19]:
+        - img [ref=e20]
+  - generic [ref=e27]:
+    - heading "404" [level=1] [ref=e28]
+    - heading "This page could not be found." [level=2] [ref=e30]
+  - contentinfo [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e39]: ImageForge
+        - paragraph [ref=e40]: A scalable image tools frontend built for compression, conversion, PDF workflows, AI editing, monetization, and future SaaS expansion.
+        - generic [ref=e41]:
+          - img [ref=e42]
+          - img [ref=e44]
+          - img [ref=e49]
+      - generic [ref=e53]:
+        - heading "Popular" [level=3] [ref=e54]
+        - generic [ref=e55]:
+          - link "Compress Image" [ref=e56] [cursor=pointer]:
+            - /url: /compress-image
+          - link "PNG to JPG" [ref=e57] [cursor=pointer]:
+            - /url: /png-to-jpg
+          - link "SVG to PNG" [ref=e58] [cursor=pointer]:
+            - /url: /svg-to-png
+          - link "Resize Image" [ref=e59] [cursor=pointer]:
+            - /url: /resize-image
+          - link "Image to PDF" [ref=e60] [cursor=pointer]:
+            - /url: /image-to-pdf
+          - link "Background Remover" [ref=e61] [cursor=pointer]:
+            - /url: /background-remover
+      - generic [ref=e62]:
+        - heading "Company" [level=3] [ref=e63]
+        - generic [ref=e64]:
+          - link "All tools" [ref=e65] [cursor=pointer]:
+            - /url: /tools
+          - link "Compression" [ref=e66] [cursor=pointer]:
+            - /url: /tools#compression
+          - link "Conversion" [ref=e67] [cursor=pointer]:
+            - /url: /tools#conversion
+          - link "Editing" [ref=e68] [cursor=pointer]:
+            - /url: /tools#editing
+          - link "PDF" [ref=e69] [cursor=pointer]:
+            - /url: /tools#pdf
+          - link "AI" [ref=e70] [cursor=pointer]:
+            - /url: /tools#ai
+          - link "Privacy policy" [ref=e71] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=e72] [cursor=pointer]:
+            - /url: /terms
+    - generic [ref=e73]: © 2026 ImageForge. Built for fast, private image workflows.
+  - region "Notifications alt+T"
+  - alert [ref=e74]

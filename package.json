@@ -1,0 +1,40 @@
+{
+  "name": "universal-image-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "latest",
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-slot": "latest",
+    "axios": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "^15.5.6",
+    "react": "^19.0.0",
+    "react-compare-slider": "latest",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "latest",
+    "react-easy-crop": "latest",
+    "react-hook-form": "latest",
+    "sonner": "latest",
+    "tailwind-merge": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
