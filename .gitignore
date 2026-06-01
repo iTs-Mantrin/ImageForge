@@ -33,3 +33,7 @@ Thumbs.db
 # Vercel
 .vercel
 output/
+
+.playwright-mcp/
+.sisyphus/
+*.tsbuildinfo
